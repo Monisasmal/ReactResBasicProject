@@ -1,25 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+import React from 'react';
+import Restaurant from './Basics/Restaurant';
+// import UseState from './Hooks/useState';
+// import UseEffect from './component/Hooks/useEffect';
+// import UseReducer from './component/Hooks/useReducer';
+//import ToDo from './component/ToDoList/ToDo';
+// import Temp from './component/Weather/Temp';
+const App = () => {
+   return <Restaurant />;
+  
+};
 
 export default App;
